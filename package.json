@@ -1,0 +1,9 @@
+{
+  "name": "flashdelivery-operations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicación monolítica CRUD para operaciones de FlashDelivery",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}

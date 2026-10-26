@@ -1,0 +1,39 @@
+@media (max-width: 680px) {
+  .sidebar {
+    height: auto;
+    min-height: 0;
+    padding: 10px 14px 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .navigation {
+    display: flex;
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 0;
+    gap: 3px;
+    margin: 8px -4px 0;
+    padding: 0 0 7px;
+    overflow-x: auto;
+  }
+
+  .nav-caption {
+    display: none;
+  }
+
+  .nav-item {
+    flex: 0 0 auto;
+    height: 34px;
+    gap: 6px;
+    padding: 0 9px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .nav-icon {
+    width: auto;
+    font-size: 14px;
+  }
+}

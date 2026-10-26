@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f2">
+  <title>FlashDelivery | Centro de operaciones</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/mobile.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="FlashDelivery inicio">
+        <span class="brand-mark">F<span>.</span></span>
+        <span class="brand-name">flash<span>delivery</span></span>
+      </a>
+      <div class="workspace-label">OPERACIONES</div>
+      <nav class="navigation" aria-label="Navegación principal">
+        <button class="nav-item active" data-view="overview"><span class="nav-icon">◫</span>Resumen</button>
+        <div class="nav-caption">GESTIÓN</div>
+        <button class="nav-item" data-view="orders"><span class="nav-icon">↗</span>Pedidos <span class="nav-count" id="nav-orders">0</span></button>
+        <button class="nav-item" data-view="restaurants"><span class="nav-icon">⌂</span>Restaurantes</button>
+        <button class="nav-item" data-view="products"><span class="nav-icon">▦</span>Productos</button>
+        <button class="nav-item" data-view="couriers"><span class="nav-icon">⌁</span>Repartidores</button>
+        <button class="nav-item" data-view="clients"><span class="nav-icon">◎</span>Clientes</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="system-status"><span class="status-dot"></span><span><strong>Sistema operativo</strong><small>Todos los servicios activos</small></span></div>
+        <div class="profile"><div class="avatar">OP</div><span><strong>Operaciones</strong><small>Administrador</small></span><span class="profile-menu">···</span></div>
+      </div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumb">FlashDelivery <span>/</span> <strong id="breadcrumb-current">Resumen</strong></div>
+        <div class="topbar-right"><span class="live-indicator"><i></i> EN VIVO</span><span class="topbar-divider"></span><span id="today-date" class="today-date"></span><button class="icon-button" id="refresh-button" title="Actualizar datos" aria-label="Actualizar datos">↻</button></div>
+      </header>
+      <section id="view-root" class="view-root" aria-live="polite"></section>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+</body>
+</html>
