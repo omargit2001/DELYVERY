@@ -12,7 +12,7 @@ Proyecto monolítico CRUD de FlashDelivery, con el código fuente organizado en 
 
 ## Repositorio personal
 
-Enlace del proyecto publicado: **PENDIENTE: reemplazar con la URL de tu repositorio de GitHub personal.**
+Enlace del proyecto publicado: [github.com/omargit2001/DELYVERY](https://github.com/omargit2001/DELYVERY).
 
 Para publicarlo, crea un repositorio vacío en tu cuenta de GitHub y ejecuta desde la carpeta del proyecto:
 
